@@ -14,8 +14,8 @@
             {
                 Console.Write(i + " ");
             }
-            L.RemoveFirst();
-           
+
+            L.RemoveLast();
             Console.WriteLine();
             Console.Write("Linked List after deletion: ");
             foreach (int i in L)
