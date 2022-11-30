@@ -9,11 +9,19 @@
             L.AddFirst(30);
             L.AddFirst(70);
            
-            Console.Write("Linked List elements are: ");
+            Console.Write("Original Linked List: ");
+            foreach (int i in L)
+            {
+                Console.Write(i + " ");
+            }
+            L.RemoveFirst();
+           
+            Console.WriteLine();
+            Console.Write("Linked List after deletion: ");
             foreach (int i in L)
             {
                 Console.Write(i + " ");
             }
         }
+        }
     }
-}
